@@ -1,3 +1,7 @@
+-- Solution for exercise 4
+SELECT * FROM Printer
+WHERE color = 'y'
+
 -- Solution for exercise 5
 SELECT model, speed, hd 
 FROM PC
