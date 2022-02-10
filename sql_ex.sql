@@ -1,3 +1,7 @@
+-- Solution for exercise 2
+SELECT DISTINCT maker FROM Product
+WHERE type = 'Printer'
+
 -- Solution for exercise 3
 SELECT model, ram, screen FROM Laptop
 WHERE price > 1000
