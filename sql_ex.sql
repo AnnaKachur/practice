@@ -1,3 +1,7 @@
+-- Solution for exercise 3
+SELECT model, ram, screen FROM Laptop
+WHERE price > 1000
+
 -- Solution for exercise 4
 SELECT * FROM Printer
 WHERE color = 'y'
