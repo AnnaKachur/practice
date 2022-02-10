@@ -1,3 +1,7 @@
+-- Solution for exercise 1
+SELECT model, speed, hd FROM PC
+WHERE price < 500
+
 -- Solution for exercise 2
 SELECT DISTINCT maker FROM Product
 WHERE type = 'Printer'
