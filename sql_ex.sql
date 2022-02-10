@@ -1,3 +1,8 @@
+-- Solution for exercise 5
+SELECT model, speed, hd 
+FROM PC
+WHERE price < 600 AND (cd = '12x' OR cd = '24x')
+
 -- Solution for exercise 6
 SELECT DISTINCT maker, speed FROM Laptop 
 INNER JOIN Product ON Laptop.model = Product.model
