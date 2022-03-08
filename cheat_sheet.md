@@ -24,3 +24,14 @@ Create a folder/directory - make directory
 ```sh
 mkdir <folder_name>
 ```
+## Git
+### Basics
+Basic workflow
+```sh
+# Add files with changes to the staging area
+git add <file_name>
+# Save changes locally in git with selected files and a comment 
+git commit -m "Meaningful comment"
+# Push changes to the remote repository
+git push
+```
