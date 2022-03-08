@@ -24,6 +24,11 @@ Create a folder/directory - make directory
 ```sh
 mkdir <folder_name>
 ```
+Change a folder or file name
+```sh
+mv <folder_name> <new_folder_name>
+```
+
 ## Git
 ### Basics
 Basic workflow
