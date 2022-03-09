@@ -28,6 +28,19 @@ Change a folder or file name
 ```sh
 mv <folder_name> <new_folder_name>
 ```
+Move a folder to another folder
+```sh
+mv <folder to move> <destination>
+```
+### C Language
+
+```sh
+make <file_name>
+```
+Run program
+```sh
+./<file_name>
+```
 
 ## Git
 ### Basics
@@ -39,4 +52,11 @@ git add <file_name>
 git commit -m "Meaningful comment"
 # Push changes to the remote repository
 git push
+```
+## Programming
+### C Language
+To use double quotes in a string use \ to escape them
+```c
+printf("Hello \"World\"");
+// => Hello "World"
 ```
