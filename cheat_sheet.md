@@ -33,7 +33,8 @@ Move a folder to another folder
 mv <folder to move> <destination>
 ```
 ### C Language
-
+Compile c code to binary executable
+By default it will create an executable with the same name as a file with code
 ```sh
 make <file_name>
 ```
