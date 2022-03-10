@@ -32,6 +32,14 @@ Move a folder to another folder
 ```sh
 mv <folder to move> <destination>
 ```
+Remove a file
+```sh
+rm <file_name>
+```
+Remove a folder
+```sh
+rm -r <folder_name>
+```
 ### C Language
 Compile c code to binary executable
 By default it will create an executable with the same name as a file with code
@@ -54,6 +62,29 @@ git commit -m "Meaningful comment"
 # Push changes to the remote repository
 git push
 ```
+### Commands 
+Show status of a branch
+```sh
+git status
+```
+Show commits in the branch
+```sh
+git log
+```
+Link to the remote repository
+```sh
+# Necessary for the first git push
+
+# Add link to remote repository
+git remote add <local_name> <link_to_repository>
+git remote add origin git@github.com:AnnaKachur/practice.git
+
+# Show links to the repositiries
+git remote -v
+```
+
+
+
 ## Programming
 ### C Language
 To use double quotes in a string use \ to escape them
@@ -61,3 +92,7 @@ To use double quotes in a string use \ to escape them
 printf("Hello \"World\"");
 // => Hello "World"
 ```
+To use backslash in a string use \ to escape it
+```c
+printf("Hello \\World");
+// => Hello \World
