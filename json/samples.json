@@ -2,5 +2,18 @@
   "first_name": "Anna",
   "last_name": "Kachur",
   "can_use_github": true,
-  "books": {"favourite": "Kolobok", "favourite": "The Glass Bead Game", "unfavourite": "Kotyk ta Pivnyk"}
+  "books": [
+    {
+      "favourite": "Kolobok",
+      "read": true
+      },
+    {
+      "favourite": "The Glass Bead Game",
+      "read": false
+      },
+    {
+      "unfavourite": "Kotyk ta Pivnyk",
+      "read": true
+    }
+  ]
 } 
