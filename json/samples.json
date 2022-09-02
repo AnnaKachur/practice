@@ -2,6 +2,7 @@
   "first_name": "Anna",
   "last_name": "Kachur",
   "can_use_github": true,
+  "can_use_postman": true,
   "books": [
     {
       "name": "Kolobok",
