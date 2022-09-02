@@ -1,4 +1,5 @@
 {
   "first_name":"Anna",
-  "last_name":"Kachur"
+  "last_name":"Kachur",
+  "can_use_github":true
 }
