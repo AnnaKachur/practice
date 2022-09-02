@@ -4,16 +4,19 @@
   "can_use_github": true,
   "books": [
     {
-      "favourite": "Kolobok",
-      "read": true
+      "name": "Kolobok",
+      "is_favourite": true,
+      "is_read": true
       },
     {
-      "favourite": "The Glass Bead Game",
-      "read": false
+      "name": "The Glass Bead Game",
+      "is_favourite": true,
+      "is_read": false
       },
     {
-      "unfavourite": "Kotyk ta Pivnyk",
-      "read": true
+      "name": "Kotyk ta Pivnyk",
+      "is_favourite": true,
+      "is_read": true
     }
   ]
 } 
