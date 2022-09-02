@@ -2,5 +2,5 @@
   "first_name": "Anna",
   "last_name": "Kachur",
   "can_use_github": true,
-  "books": {"favourite": "Kolobok", "unfavourite": "Kotyk ta Pivnyk"}
+  "books": {"favourite": "Kolobok", "favourite": "Biser", "unfavourite": "Kotyk ta Pivnyk"}
 } 
