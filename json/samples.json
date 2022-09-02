@@ -1,5 +1,6 @@
 {
-  "first_name":"Anna",
-  "last_name":"Kachur",
-  "can_use_github":true
-}
+  "first_name": "Anna",
+  "last_name": "Kachur",
+  "can_use_github": true,
+  "books": ["Kolobok", "Kotyk_ta_pivnyk"]
+} 
