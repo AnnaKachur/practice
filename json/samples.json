@@ -1,23 +1,50 @@
 {
-  "first_name": "Anna",
-  "last_name": "Kachur",
-  "can_use_github": true,
-  "can_use_postman": true,
-  "books": [
+  "Persons": [
     {
-      "name": "Kolobok",
-      "is_favourite": true,
-      "is_read": true
-      },
-    {
-      "name": "The Glass Bead Game",
-      "is_favourite": true,
-      "is_read": false
-      },
-    {
-      "name": "Kotyk ta Pivnyk",
-      "is_favourite": true,
-      "is_read": true
+      "first_name": "Anna",
+      "last_name": "Kachur",
+      "can_use_github": true,
+      "can_use_postman": true,
+      "books": [
+        {
+          "name": "Kolobok",
+          "is_favourite": true,
+          "is_read": true
+          },
+        {
+          "name": "The Glass Bead Game",
+          "is_favourite": true,
+          "is_read": false
+          },
+        { 
+          "name": "Kotyk ta Pivnyk",
+          "is_favourite": false,
+          "is_read": true
+          }
+     ]
+    },
+   {
+      "first_name": "Julia",
+      "last_name": "Kachur",
+      "can_use_github": true,
+      "can_use_postman": true,
+      "books": [
+        {
+          "name": "The Notebook",
+          "is_favourite": true,
+          "is_read": true
+          },
+        {
+          "name": "Remember me",
+          "is_favourite": true,
+          "is_read": true
+          },
+        { 
+          "name": "Kotyhoroshko",
+          "is_favourite": false,
+          "is_read": true
+          }
+     ]
     }
-  ]
-} 
+   ]
+    
