@@ -29,8 +29,8 @@ var sister = {
     isAlien: true,
     email: "julia@gmail.com",
     password: "qwerty123",
-    token: "xxx-lust-xxx",
-    refreshToken: "$$$-flowers-$$$",
+    token: "xcvcxv",
+    refreshToken: "xcvcxv",
     car: {
         manufacturer: "Pegeot",
         color: "yellow",
