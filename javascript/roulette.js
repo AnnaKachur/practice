@@ -1,0 +1,1 @@
+console.log("Roulette number is " + Math.floor(Math.random() * 36));
