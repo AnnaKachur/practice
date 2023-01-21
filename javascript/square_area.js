@@ -1,4 +1,4 @@
-function userInput() {return Math.floor(Math.random() * 100);} // do not touch or change this lone!!!
+function userInput() {return Math.floor(Math.random() * 100);} // do not touch or change this line!!!
 
 var side = userInput();
 var area = side * side;
