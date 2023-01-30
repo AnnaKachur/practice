@@ -3,11 +3,13 @@ function randomInt(min, max) {return Math.floor(Math.random() * (max - min)) + m
 console.log("./sum");
 
 var number_of_rows = randomInt(0, 10);
-var number = randomInt(0, 100);
 
+var sum = 0;
 for (let i = 1; i <= number_of_rows; i++) {
-    console.log(i + ". " + (number + randomInt(1, 100)));
+    var number = randomInt(1, 100);
+    console.log(i + ". " + number);
+    sum += number;
 }
 
-//var sum = 
-//console.log("The sum is", sum);
+
+// console.log("The sum is", sum);

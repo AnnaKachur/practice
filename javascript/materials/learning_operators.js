@@ -16,9 +16,17 @@ console.log("3 ** 3 =", 3 ** 3);
 
 // Assignment
 var x;
+// x is undefined
+
 x = 2;
+// x is 2
+
 x = x + 3;
+// x is 5
+
 x += 3;
+// x is 8
+
 // x -= 3;
 // x *= 3;
 // x /= 3;
