@@ -10,6 +10,3 @@ for (let i = 1; i <= number_of_rows; i++) {
     console.log(i + ". " + number);
     sum += number;
 }
-
-
-// console.log("The sum is", sum);
