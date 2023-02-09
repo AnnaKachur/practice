@@ -119,3 +119,45 @@ printRectangle(5, 4, '*', ' ');
 printRectangle(7, 7, '+', '*');
 printRectangle(40, 5, '#', '.');
 printRectangle(27, 9, '-', '@');
+
+printSeparator();
+
+// function remainder(number) {
+//     const result = number 
+// }
+
+console.log("Example:")
+console.log(`Number 7.599 consists of 7 and 0.599`);
+console.log();
+
+function retrieveIntegerPart(number) {
+    const result = Math.floor(number);
+
+    return result;
+}
+
+function retrieveRemainder(number) {
+    const integer_part = retrieveIntegerPart(number);
+    const remainder = number - integer_part;
+
+    return remainder;
+}
+
+function printNumberParts(number) {
+    const integer_part = retrieveIntegerPart(number);
+    const remainder = retrieveRemainder(number);
+
+    console.log(`Number ${number} consists of ${integer_part} and ${remainder}`);
+    console.log();
+}
+
+printNumberParts(7.599);
+printNumberParts(9.199);
+printNumberParts(5.0);
+printNumberParts(7.999999);
+
+
+
+
+
+
