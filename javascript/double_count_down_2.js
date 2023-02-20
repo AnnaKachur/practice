@@ -3,27 +3,28 @@ function randomInt(min, max) {return Math.floor(Math.random() * (max - min)) + m
 console.log("double_down_countdown_2");
 
 
-var number_of_countdowns = randomInt(1, 5);
-var number_of_rows = 0;
+var number_of_countdowns = randomInt(1, 5); // 4
 
-for (let i = 1; i <= number_of_countdowns; i++) {
-    var row_index = randomInt(1, 5);
-    console.log(i + ". Countdown:" + row_index);
-        while (row_index >= 1) {
-             if (row_index % 2 == 0) {
-                 console.log("Boop", row_index);
-                 row_index--; // boop
+
+for (let i = 1; true; i++) {
+    var number_of_rows = 2; // 2
+    console.log("1. Countdown:2");
+    var count_rows = 0; // 1
+        while (number_of_rows >= 1) {
+             if (number_of_rows % 2 == 0) {
+                 console.log("Boop", number_of_rows);
+                 number_of_rows--; // boop
                  } else {
-                    console.log("Beep", row_index);
-                    row_index--;// beep
+                    console.log("Beep", number_of_rows);
+                    number_of_rows--;// beep
                 }
-                number_of_rows = number_of_rows +1;
+                count_rows += 1;
 
         }
     console.log ("BOOM!");
     console.log("\n"); 
-    
+    console.log(count_rows);
 }
 
 console.log("There is nothing left!");
-console.log("Countdowns [" + number_of_rows + "]");
+console.log("Countdowns [" + count_rows + "]");
